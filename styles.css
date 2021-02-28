@@ -4,29 +4,24 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-header {
-  display: flex;
-  justify-content: flex-start;
-  max-height: 100px;
-  width: 100%;
-  border: 2px solid red;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.nav-list {
-  display: flex;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav-list a {
-  display: block;
-  font-size: 1rem;
-  padding: 2rem;
+.float-left {
+  float: left;
 }
 
 .float-right {
-  justify-content: flex-end;
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+li,
+a {
+  float: right;
+  list-style: none;
 }
